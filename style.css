@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-principal: #4d8ed8 ;
+    --cor-segundaria: #01080f;
+    --cor-destaque: #15447a;
+}
+body{
+    font-family: "Oswald", sans-serif;
+    color:var(--cor-principal);
+}
+
+h1, h2, h5{
+    color: var(--cor-segundaria);
+    font-weight: 700;
+}
+a, .btn-link:houver {
+    color: var(--cor-principal);
+}
+a:hover{
+    color: var(--cor-destaque);
+}
+
+.lead, .ptn-link { 
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
